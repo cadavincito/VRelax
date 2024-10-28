@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.framer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   margin-top: 12px;
+}
+
+.section {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 51px;
+    margin-bottom: 45px;
+}
+
+.section > * {
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+p {
+    max-width: 600px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.image {
+    width: 300px;
+    height: auto;
+}
+
+.video {
+    width: 560px;
+    height: 315px;
+}
+
+.sketchfab-embed-wrapper iframe {
+    width: 100%;
+    
+    border: none;
+}
+
+#spinner {
+    animation: spin 8s linear infinite; /* 4 seconds for one rotation, adjust as needed */
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
