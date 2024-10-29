@@ -48,6 +48,21 @@ main {
     margin-bottom: 15px;
 }
 
+.section ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding-left: 0;
+    text-align: center;
+}
+
+.section ul li {
+    margin-bottom: 20px; /* Adds space between audio items */
+}
+
+.section audio {
+    margin-top: 5px; /* Adds space between the text label and audio control */
+}
+
+
 h1 {
     font-weight: 600;
     font-family: Arial, sans-serif;

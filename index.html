@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VRelax</title>
-    <link rel="icon" href="media/flowerOfLife.PNG" type="image/png">
+    <link rel="icon" href="media/images/flowerOfLife.PNG" type="image/png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header style="display: flex;">
         <h1>VRelax</h1>
     </header>
 
     <main>
-        <!-- First Section with Image -->
+        <!-- Section with logo Image -->
         <div class="section">
-            <img src="media/vrelaxLogo.PNG" style="width: 360px;" alt="Imagen de ejemplo" class="image">
+            <img src="media/images/vrelaxLogo.PNG" style="width: 360px;" alt="Imagen de ejemplo" class="image">
         </div>
 
+        <!-- Section with spinning image -->
         <div style="display: flex; justify-content: center; align-items: center;margin-bottom: 24px;margin-top: -15px;">
-            <img id="spinner" src="media/flowerOfLife.PNG" style="width: 150px;" alt="Imagen de ejemplo" class="image">
+            <img id="spinner" src="media/images/flowerOfLife.PNG" style="width: 120px;" alt="Imagen de ejemplo" class="image">
         </div>
 
-        <!-- Second Section with Header and Text -->
+        <!-- Section with Header and description -->
         <div class="section">
             <h1>Relajación inmersiva</h1>
             <p style="line-height: 1.5;">VRelax es una experiencia de realidad virtual diseñada para reducir el estrés y la ansiedad en pacientes de radiología. 
@@ -40,14 +41,54 @@
       
 
         <!-- Third Section with Updated Sketchfab Embed -->
-        <div class="section">
+        <div class="section" style="margin-top: -30px;">
             <h1>VRelax Demo</h1>
-            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PubQfGQkRpE?si=XwsqVPMi551wV94j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
+
+          <!-- Audios-->
+    <div class="section">
+        <h1>VRelax Soundtracks</h1>
+        
+        <!-- Unordered List of Audio Elements -->
+        <ul style="display: flex; justify-content: center;align-items: center; flex-direction: column;">
+            <li>
+                track 1
+                <audio controls>
+                    <source src="media/audio/1ersonido.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+            <li>
+                track 2
+                <audio controls>
+                    <source src="media/audio/2dosonido.wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+            <li>
+                track 3
+                <audio controls>
+                    <source src="media/audio/3ersonido.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+            <li>
+                track 4
+                <audio controls>
+                    <source src="media/audio/4tosonido.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+        </ul>
+    </div>
     </main>
 
+  
+
+
     <footer>
-        <p>©2024 Developed by <a href="https://github.com/cadavincito"><b>Cadavincito</b></a>.</p>
+        <p>©2024 Developed by <a href="https://github.com/cadavincito" style="color: white;"><b>Cadavincito</b></a>.</p>
     </footer>
 </body>
 </html>
